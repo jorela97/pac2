@@ -1,0 +1,164 @@
+{
+  "@context" : {
+    "Inflight_Entertainment" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Inflight_Entertainment"
+    },
+    "Seat_Comfort" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Seat_Comfort"
+    },
+    "Verified" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Verified"
+    },
+    "valueForMoneyRating" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#valueForMoneyRating",
+      "@type" : "@id"
+    },
+    "General" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#General"
+    },
+    "Review" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review"
+    },
+    "Body_Review" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Body_Review",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "seatType" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#seatType",
+      "@type" : "@id"
+    },
+    "Recommended" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Recommended"
+    },
+    "Traveller_Country" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Traveller_Country"
+    },
+    "_Connectivity" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Wifi_&_Connectivity"
+    },
+    "Date_Review" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Date_Review",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Aircraft_Model" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Aircraft_Model"
+    },
+    "Traveller_Type" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Traveller_Type"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Seat_Class" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Seat_Class"
+    },
+    "travelDeparture" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#travelDeparture",
+      "@type" : "@id"
+    },
+    "globalRating" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#globalRating",
+      "@type" : "@id"
+    },
+    "Travel_Properties" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Travel_Properties"
+    },
+    "Date_Flown" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Date_Flown",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "inflightEntertainmentRating" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#inflightEntertainmentRating",
+      "@type" : "@id"
+    },
+    "Airport" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Airport"
+    },
+    "travelDestination" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#travelDestination",
+      "@type" : "@id"
+    },
+    "flightOperatedBy" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#flightOperatedBy",
+      "@type" : "@id"
+    },
+    "typeOfTravel" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#typeOfTravel",
+      "@type" : "@id"
+    },
+    "Ground_Service" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Ground_Service"
+    },
+    "cabinStaffServiceRating" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#cabinStaffServiceRating",
+      "@type" : "@id"
+    },
+    "isVerified" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#isVerified",
+      "@type" : "@id"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Rating"
+    },
+    "BeveragesRating" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#food&BeveragesRating",
+      "@type" : "@id"
+    },
+    "_Beverages" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Food_&_Beverages"
+    },
+    "Title_Review" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Title_Review",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Cabin_Staff_Service" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Cabin_Staff_Service"
+    },
+    "Review_Properties" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_Properties"
+    },
+    "Airline" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Airline"
+    },
+    "recommendedByTraveler" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#recommendedByTraveler",
+      "@type" : "@id"
+    },
+    "Author_Review" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Author_Review",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "travelerFrom" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#travelerFrom",
+      "@type" : "@id"
+    },
+    "seatConfortRating" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#seatConfortRating",
+      "@type" : "@id"
+    },
+    "Value_For_Money" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Value_For_Money"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "groundServiceRating" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#groundServiceRating",
+      "@type" : "@id"
+    },
+    "ConnectivityRating" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#wifi&ConnectivityRating",
+      "@type" : "@id"
+    },
+    "Traveller_Properties" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Traveller_Properties"
+    },
+    "travelWith" : {
+      "@id" : "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#travelWith",
+      "@type" : "@id"
+    }
+  }
+}
