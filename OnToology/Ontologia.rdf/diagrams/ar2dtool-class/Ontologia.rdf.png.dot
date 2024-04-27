@@ -1,0 +1,41 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "untitled-ontology-3:Traveller_Type" "untitled-ontology-3:Cabin_Staff_Service" "untitled-ontology-3:Value_For_Money" "untitled-ontology-3:Aircraft_Model" "untitled-ontology-3:Traveller_Country" "untitled-ontology-3:Airline" "untitled-ontology-3:Verified" "untitled-ontology-3:General" "untitled-ontology-3:Inflight_Entertainment" "untitled-ontology-3:Airport" "untitled-ontology-3:Seat_Class" "untitled-ontology-3:Recommended" "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Food_&_Beverages" "untitled-ontology-3:Seat_Comfort" "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Wifi_&_Connectivity" "untitled-ontology-3:Ground_Service" "untitled-ontology-3:Review" ; /*classes style*/
+	"NULL" -> "untitled-ontology-3:General" [ label = "owl:onClass" ];
+	"NULL" -> "untitled-ontology-3:globalRating" [ label = "owl:onProperty" ];
+	"untitled-ontology-3:travelDeparture" -> "untitled-ontology-3:travelDestination" [ label = "owl:propertyDisjointWith" ];
+	"untitled-ontology-3:Aircraft_Model" -> "untitled-ontology-3:Airline" [ label = "owl:disjointWith" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_id:_0" -> "untitled-ontology-3:Not_Recommended" [ label = "untitled-ontology-3:recommendedByTraveler" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_id:_0" -> "untitled-ontology-3:qatar_airways" [ label = "untitled-ontology-3:flightOperatedBy" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_id:_0" -> "untitled-ontology-3:Not_verified" [ label = "untitled-ontology-3:isVerified" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_id:_0" -> "untitled-ontology-3:London_Heathrow" [ label = "untitled-ontology-3:travelDestination" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_id:_0" -> "untitled-ontology-3:Tokyo" [ label = "untitled-ontology-3:travelDeparture" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_id:_0" -> "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#1" [ label = "untitled-ontology-3:globalRating" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_id:_0" -> "untitled-ontology-3:Solo_Leisure" [ label = "untitled-ontology-3:typeOfTravel" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_id:_0" -> "untitled-ontology-3:United_Kingdom" [ label = "untitled-ontology-3:travelerFrom" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Review_id:_0" -> "untitled-ontology-3:Economy_Class" [ label = "untitled-ontology-3:seatType" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Value_For_Money" [ label = "untitled-ontology-3:valueForMoneyRating" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Airport" [ label = "untitled-ontology-3:travelDeparture" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Recommended" [ label = "untitled-ontology-3:recommendedByTraveler" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:General" [ label = "untitled-ontology-3:globalRating" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Aircraft_Model" [ label = "untitled-ontology-3:travelWith" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Verified" [ label = "untitled-ontology-3:isVerified" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Traveller_Type" [ label = "untitled-ontology-3:typeOfTravel" ];
+	"untitled-ontology-3:Review" -> "xsd:dateTime" [ label = "untitled-ontology-3:Date_Flown" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Cabin_Staff_Service" [ label = "untitled-ontology-3:cabinStaffServiceRating" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Airline" [ label = "untitled-ontology-3:flightOperatedBy" ];
+	"untitled-ontology-3:Review" -> "xsd:string" [ label = "untitled-ontology-3:Body_Review" ];
+	"untitled-ontology-3:Review" -> "xsd:dateTime" [ label = "untitled-ontology-3:Date_Review" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Airport" [ label = "untitled-ontology-3:travelDestination" ];
+	"untitled-ontology-3:Review" -> "xsd:string" [ label = "untitled-ontology-3:Author_Review" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Traveller_Country" [ label = "untitled-ontology-3:travelerFrom" ];
+	"untitled-ontology-3:Review" -> "xsd:string" [ label = "untitled-ontology-3:Title_Review" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Seat_Class" [ label = "untitled-ontology-3:seatType" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Inflight_Entertainment" [ label = "untitled-ontology-3:inflightEntertainmentRating" ];
+	"untitled-ontology-3:Review" -> "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Food_&_Beverages" [ label = "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#food&BeveragesRating" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Seat_Comfort" [ label = "untitled-ontology-3:seatConfortRating" ];
+	"untitled-ontology-3:Review" -> "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Wifi_&_Connectivity" [ label = "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#wifi&ConnectivityRating" ];
+	"untitled-ontology-3:Review" -> "untitled-ontology-3:Ground_Service" [ label = "untitled-ontology-3:groundServiceRating" ];
+
+}
