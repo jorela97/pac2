@@ -1,0 +1,23 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "untitled-ontology-3:Traveller_Type" "untitled-ontology-3:Cabin_Staff_Service" "untitled-ontology-3:Value_For_Money" "untitled-ontology-3:Aircraft_Model" "untitled-ontology-3:Traveller_Country" "untitled-ontology-3:Airline" "untitled-ontology-3:Verified" "untitled-ontology-3:General" "untitled-ontology-3:Travel_Properties" "untitled-ontology-3:Inflight_Entertainment" "untitled-ontology-3:Airport" "untitled-ontology-3:Seat_Class" "untitled-ontology-3:Recommended" "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Food_&_Beverages" "untitled-ontology-3:Seat_Comfort" "untitled-ontology-3:Traveller_Properties" "untitled-ontology-3:Review_Properties" "untitled-ontology-3:Rating" "http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Wifi_&_Connectivity" "untitled-ontology-3:Ground_Service" ; /*classes style*/
+	"untitled-ontology-3:Value_For_Money" -> "untitled-ontology-3:Rating" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Seat_Class" -> "untitled-ontology-3:Travel_Properties" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Seat_Comfort" -> "untitled-ontology-3:Rating" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Aircraft_Model" -> "untitled-ontology-3:Travel_Properties" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Cabin_Staff_Service" -> "untitled-ontology-3:Rating" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Traveller_Country" -> "untitled-ontology-3:Traveller_Properties" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Recommended" -> "untitled-ontology-3:Review_Properties" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Wifi_&_Connectivity" -> "untitled-ontology-3:Rating" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Airline" -> "untitled-ontology-3:Travel_Properties" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Traveller_Type" -> "untitled-ontology-3:Travel_Properties" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Airport" -> "untitled-ontology-3:Travel_Properties" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:General" -> "untitled-ontology-3:Rating" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/joseprecio/ontologies/2024/3/untitled-ontology-3#Food_&_Beverages" -> "untitled-ontology-3:Rating" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Ground_Service" -> "untitled-ontology-3:Rating" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Rating" -> "untitled-ontology-3:Review_Properties" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Inflight_Entertainment" -> "untitled-ontology-3:Rating" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Verified" -> "untitled-ontology-3:Review_Properties" [ label = "rdfs:subClassOf" ];
+
+}
